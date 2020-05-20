@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="b32ac5c7f7134ee4b505dbb0063cca62" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_b32ac5c7f7134ee4b505dbb0063cca62 = echarts.init(
+            document.getElementById('b32ac5c7f7134ee4b505dbb0063cca62'), 'white', {renderer: 'canvas'});
+        var option_b32ac5c7f7134ee4b505dbb0063cca62 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "price(0~1k)",
+                    "value": 5124310
+                },
+                {
+                    "name": "price(10k~15k)",
+                    "value": 755
+                },
+                {
+                    "name": "price(1k~2k)",
+                    "value": 7681948
+                },
+                {
+                    "name": "price(2k~3k)",
+                    "value": 3291347
+                },
+                {
+                    "name": "price(3k~5k)",
+                    "value": 1593698
+                },
+                {
+                    "name": "price(5k~10k)",
+                    "value": 134199
+                }
+            ],
+            "radius": [
+                "0%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "60%"
+            ],
+            "label": {
+                "show": true,
+                "position": "outside",
+                "margin": 8,
+                "formatter": "{a|{a}}{abg|}\n{hr|}\n {b|{b}: }{c}  {per|{d}%}  ",
+                "backgroundColor": "#eee",
+                "borderColor": "#aaa",
+                "borderWidth": 1,
+                "borderRadius": 4,
+                "rich": {
+                    "a": {
+                        "color": "#999",
+                        "lineHeight": 22,
+                        "align": "center"
+                    },
+                    "abg": {
+                        "backgroundColor": "#e3e3e3",
+                        "width": "100%",
+                        "align": "right",
+                        "height": 22,
+                        "borderRadius": [
+                            4,
+                            4,
+                            0,
+                            0
+                        ]
+                    },
+                    "hr": {
+                        "borderColor": "#aaa",
+                        "width": "100%",
+                        "borderWidth": 0.5,
+                        "height": 0
+                    },
+                    "b": {
+                        "fontSize": 16,
+                        "lineHeight": 33
+                    },
+                    "per": {
+                        "color": "#eee",
+                        "backgroundColor": "#334455",
+                        "padding": [
+                            2,
+                            4
+                        ],
+                        "borderRadius": 2
+                    }
+                }
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "price(0~1k)",
+                "price(10k~15k)",
+                "price(1k~2k)",
+                "price(2k~3k)",
+                "price(3k~5k)",
+                "price(5k~10k)"
+            ],
+            "selected": {},
+            "show": true,
+            "left": "85%"
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "\u4eac\u4e1c\u7f51\u5404\u4ef7\u4f4d\u534e\u4e3a\u624b\u673a\u7d2f\u8ba1\u9500\u91cf\u56fe",
+            "right": "60%"
+        }
+    ]
+};
+        chart_b32ac5c7f7134ee4b505dbb0063cca62.setOption(option_b32ac5c7f7134ee4b505dbb0063cca62);
+    </script>
+</body>
+</html>
